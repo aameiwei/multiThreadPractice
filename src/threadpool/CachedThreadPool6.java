@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 /**
  * 描述：     TODO
  */
-public class CachedThreadPool {
+public class CachedThreadPool6 {
 
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();

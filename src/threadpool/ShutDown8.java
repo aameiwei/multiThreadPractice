@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 描述：     演示关闭线程池
  */
-public class ShutDown {
+public class ShutDown8 {
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newFixedThreadPool(10);

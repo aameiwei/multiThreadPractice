@@ -1,17 +1,13 @@
 package threadpool;
 
-import java.util.concurrent.Executors;
-
 /**
  * 描述：     TODO
  */
-public class ForLoop {
+public class EveryTaskOneThread1 {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 1000; i++) {
-            Thread thread = new Thread(new Task());
-            thread.start();
-        }
+        Thread thread = new Thread(new Task());
+        thread.start();
     }
 
     static class Task implements Runnable {

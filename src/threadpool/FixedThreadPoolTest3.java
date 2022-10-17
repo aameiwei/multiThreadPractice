@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 /**
  * 描述：     演示newFixedThreadPool
  */
-public class FixedThreadPoolTest {
+public class FixedThreadPoolTest3 {
 
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(4);

@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 描述：     TODO
  */
-public class ScheduledThreadPoolTest {
+public class ScheduledThreadPoolTest7 {
 
     public static void main(String[] args) {
         ScheduledExecutorService threadPool = Executors.newScheduledThreadPool(10);
